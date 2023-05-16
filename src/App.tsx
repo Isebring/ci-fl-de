@@ -7,9 +7,6 @@ function App() {
   if (Math.random() > 0.5) return null;
   const [count, setCount] = useState(0);
 
-  let a = "Hello";
-  a = 22;
-
   return (
     <>
       <div>
