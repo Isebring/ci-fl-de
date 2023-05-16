@@ -5,7 +5,10 @@ import viteLogo from '/vite.svg';
 
 function App() {
   if (Math.random() > 0.5) return null;
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+
+  let a = "Hello";
+  a = 22;
 
   return (
     <>
@@ -30,7 +33,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
